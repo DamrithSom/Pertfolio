@@ -97,3 +97,33 @@ li a:hover {
 .avata-contain .p-three {
   font-size: 1.5rem;
 }
+.three-Achievements {
+  display: flex;
+  flex-direction: column;
+  background-color: cadetblue;
+  width: 80%;
+  margin: auto;
+}
+.three-Achievements .header-title {
+  margin: auto;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+}
+.group-box {
+  display: flex;
+}
+.group-box .box1 {
+  background-color: rgb(202, 116, 2);
+  width: 250px;
+  height: 250px;
+}
+.group-box .box1 {
+  background-color: rgb(35, 67, 153);
+  width: 250px;
+  height: 250px;
+}
+.group-box .box1 {
+  background-color: rgb(218, 45, 160);
+  width: 250px;
+  height: 250px;
+}
