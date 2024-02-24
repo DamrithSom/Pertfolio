@@ -1,0 +1,70 @@
+body {
+  background-color: darkgray;
+}
+form {
+  display: inline-block;
+  background-color: slategrey;
+  padding: 2rem;
+  border-radius: 5px;
+}
+input {
+  padding: 0.5rem 1rem;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  outline: none;
+}
+input:hover {
+  padding: 0.7rem 1rem;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.5s ease-out;
+  box-shadow: 2px 2px 2px lightseagreen;
+}
+.form-group {
+  margin: 1rem 0rem;
+}
+.form-group > label {
+  display: block;
+}
+.check-box > label {
+  display: inline;
+}
+input:focus {
+  border-color: blue;
+  transition: all 0.2s ease;
+}
+.btn > button {
+  padding: 1px 20px;
+  border-color: 1px green;
+}
+.btn > button:hover {
+  color: aliceblue;
+  background-color: blue;
+  border-color: aqua 1px;
+}
+#showPassword {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+#password[type="password"] + #showPassword::after {
+  content: "Show";
+}
+
+#password[type="text"] + #showPassword::after {
+  content: "Hide";
+}
+
+#password[type="password"] + #showPassword:hover::after,
+#password[type="text"] + #showPassword:hover::after {
+  text-decoration: underline;
+}
+
+#showPassword::after {
+  content: "Show";
+  color: #666;
+}

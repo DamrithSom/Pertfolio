@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Marko+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-boxch;
+}
+.header {
+  width: 100%;
+}
+.contianer {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+#text-logo {
+  text-decoration: none;
+  padding: 10px 0px;
+  font-size: 25px;
+  color: #1f1e1e;
+  font-family: "Marko One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.menu {
+  width: 40%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.menu li a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #7a7575fa;
+  /* color: #af1010; */
+}
+#home {
+  color: #1f1e1e;
+}
+li a:hover {
+  color: #555454;
+}
+.second-header {
+  background-color: rgb(212, 208, 208);
+  width: 100%;
+  height: 350px;
+  position: relative;
+  z-index: -4;
+}
+.avata-contain {
+  display: flex;
+  width: 60%;
+  height: 350px;
+  margin: auto;
+}
+.contain-left {
+  margin: auto;
+  width: 50%;
+}
+
+.contian-right {
+  position: relative;
+}
+
+.contian-right .image-profile {
+  margin: auto;
+  width: 270px;
+  height: 350px;
+}
+
+#background-circle {
+  width: 335px;
+  height: 335px;
+  background: rgb(226, 235, 242);
+  background: linear-gradient(
+    0deg,
+    rgba(226, 235, 242, 0.9808298319327731) 24%,
+    rgba(0, 212, 255, 0.896796218487395) 68%
+  );
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: -30px;
+  z-index: -1;
+}
+.avata-contain .p-header {
+  font-size: 1.5rem;
+}
+.avata-contain .p-second {
+  font-size: 2rem;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.avata-contain .p-three {
+  font-size: 1.5rem;
+}

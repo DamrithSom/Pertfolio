@@ -1,0 +1,8 @@
+body {
+  width: 50vw;
+}
+.box {
+  width: 50%;
+  height: 250px;
+  background-color: red;
+}
