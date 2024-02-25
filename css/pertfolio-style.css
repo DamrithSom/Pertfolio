@@ -158,3 +158,32 @@ li a:hover {
   position: relative;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
 }
+.three-header {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  /* background-color: aqua; */
+  margin: auto;
+  margin-top: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.three-header .about-me-group {
+  display: flex;
+  justify-content: space-between;
+}
+.about-me-left .image-profile {
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.about-me-group .about-me-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  margin-top: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+}
