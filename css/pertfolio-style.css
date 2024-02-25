@@ -187,3 +187,30 @@ li a:hover {
   font-family: Georgia, "Times New Roman", Times, serif;
   text-align: left;
 }
+.group-btn .btn {
+  height: 55px;
+  width: 300px;
+  margin: 0rem 0.5rem;
+  border-radius: 20px;
+  border: none;
+}
+#download-cv {
+  background-color: blue;
+  color: white;
+  font-size: 1.5rem;
+}
+#hire-me {
+  width: 250px;
+  border: 1px solid black;
+  /* box-sizing: border-box; */
+  font-size: 1.5rem;
+}
+#hire-me:hover {
+  width: 250px;
+  border: none;
+  color: white;
+  background-color: rgb(75, 206, 71);
+}
+.btn i {
+  margin-right: 10px;
+}
