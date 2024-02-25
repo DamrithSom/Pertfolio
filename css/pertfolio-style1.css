@@ -210,6 +210,7 @@ li a:hover {
   border: none;
   color: white;
   background-color: rgb(75, 206, 71);
+  transition: all 0.8s ease-in;
 }
 .btn i {
   margin-right: 10px;
