@@ -211,10 +211,24 @@ li a:hover {
   border-radius: 20px;
   border: none;
 }
-#download-cv {
+/* #download-cv {
   background-color: blue;
   color: white;
   font-size: 1.5rem;
+} */
+#download-cv {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.5rem;
+
+  display: inline-block;
+}
+#download-cv .down {
+  text-decoration: none;
 }
 #hire-me {
   width: 250px;
