@@ -119,6 +119,10 @@ li a:hover {
   justify-content: center;
 }
 .box1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 150px;
   background-color: white;
@@ -210,8 +214,39 @@ li a:hover {
   border: none;
   color: white;
   background-color: rgb(75, 206, 71);
-  transition: all 0.8s ease-in;
+  transition: all 1s ease-in;
 }
 .btn i {
   margin-right: 10px;
+}
+.group-blog {
+  width: 60%;
+  margin: auto;
+  background-color: turquoise;
+  display: flex;
+  flex-direction: column;
+}
+.group-blog .header-title {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.blog-sentian {
+  background-color: #1f1e1e;
+}
+.blog-sentian-one .box1 {
+  width: 200px;
+  height: 150px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+}
+.blog-sentian-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
